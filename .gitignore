@@ -1,0 +1,80 @@
+# ---------- Systèmes d'exploitation ----------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ---------- Éditeurs / IDE ----------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Arduino IDE
+*.ino.hex
+*.ino.elf
+*.ino.bin
+*.ino.map
+sketch_*/
+
+# ---------- Build / compilation (C / C++ / Arduino / PlatformIO / CMake) ----------
+build/
+Build/
+out/
+bin/
+obj/
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.a
+*.so
+*.dll
+*.exe
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# ---------- Node / JS (au cas où) ----------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.env
+
+# ---------- Python (au cas où, ex: scripts dans outils/) ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---------- Fichiers temporaires / logs ----------
+*.log
+*.tmp
+*.bak
+*.orig
+
+# ---------- Outils ----------
+.claude/
