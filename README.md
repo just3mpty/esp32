@@ -9,7 +9,10 @@ Un minuteur pomodoro fait maison avec un ESP32-S3 et un écran tactile SPI de 3,
 - Un **câble USB-C** pour programmer et alimenter la carte
 - Quelques fils Dupont pour le branchement (12 précisément)
 
-> Liens pour acheter les composants : *à compléter avec tes propres liens*
+> Liens pour acheter les composants :
+> [ESP32-S3](https://www.amazon.fr/dp/B0F3XMYYQY?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
+> [Ecran 3.5 pouces](https://www.amazon.fr/dp/B0G2C3NWFD?ref=ppx_yo2ov_dt_b_fed_asin_title)
+> [Câbles Dupont](https://www.amazon.fr/dp/B0FGPNMDCL?ref=ppx_yo2ov_dt_b_fed_asin_title)
 
 ## Comment c'est organisé
 
@@ -26,7 +29,7 @@ Le code est en C++ (Arduino), éclaté en plusieurs fichiers pour que ce soit li
 ## Étape 1 : récupère le projet
 
 ```
-git clone <lien-de-ce-repo>
+git clone https://github.com/just3mpty/esp32.git
 ```
 
 ## Étape 2 : installe Arduino IDE et le support ESP32
